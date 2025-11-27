@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <pthread.h>
+
+int sum = 0;
+
+void* calculate_sum(void *arg) {
+    int n = *(int*)arg;
+    for (int i = 1; i <= n; i++)
+        sum += i;
+    return NULL;
+}
+
+// Sum of first n numbers using pthread
+int main() {
+    int n;
+    pthread_t tid;
+
+    printf("Enter n: ");
+    scanf("%d", &n);
+
+    pthread_create(&tid, NULL, calculate_sum, &n);
+    pthread_join(tid, NULL);
+
+    printf("Sum of first %d numbers = %d\n", n, sum);
+    return 0;
+}
+
+
+// input
+
+Enter n: 5
+
+//output
+
+Sum of first 5 numbers = 15
