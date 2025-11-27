@@ -1,0 +1,27 @@
+# Practical 2 – Linux Commands (Information & File Management)
+
+## AIM
+To study and execute basic Linux commands for information and file management.
+
+## INFORMATION COMMANDS
+date          – display system date and time  
+who           – show logged-in users  
+pwd           – print current working directory  
+cal 2025      – show calendar of year 2025  
+wc file.txt   – show line, word and character count of a file  
+
+## FILE MANAGEMENT COMMANDS
+cat file.txt                 – display contents of a file  
+cp file1 file2               – copy file1 to file2  
+mv old new                   – rename or move a file  
+rm file.txt                  – remove a file  
+cmp f1 f2                    – compare two files byte by byte  
+diff f1 f2                   – show line differences between files  
+comm f1 f2                   – compare two sorted files line by line  
+find . -name "*.c"           – find files with .c extension  
+grep "word" file.txt         – search for "word" in file  
+awk '{print $1}' file.txt    – print first column of each line  
+
+## RESULT
+Basic information and file management commands were executed
+successfully in Linux.
