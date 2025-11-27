@@ -12,3 +12,9 @@ int main() {
 
     return 0;
 }
+
+// output
+
+Before fork
+After fork, PID = 1234
+After fork, PID = 1235
