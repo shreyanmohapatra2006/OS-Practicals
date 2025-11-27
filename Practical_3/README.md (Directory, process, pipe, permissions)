@@ -1,0 +1,30 @@
+# Practical 3 – Directory, Process, Pipe and Protection Commands
+
+## AIM
+To execute Linux commands related to directory management, process
+control, pipes and protection.
+
+## DIRECTORY COMMANDS
+mkdir test        – create directory "test"  
+cd test           – change current directory  
+cd ..             – go to parent directory  
+rmdir test        – remove empty directory  
+ls -l             – list files with permissions and size  
+
+## PROCESS CONTROL COMMANDS
+ps                – display running processes  
+sleep 10 &        – run sleep command in background  
+kill <pid>        – terminate process with given process id  
+
+## PIPE AND REDIRECTION
+ls | wc -l                     – count number of files in directory  
+cat file.txt | grep "OS"       – show lines containing word "OS"  
+
+## PROTECTION COMMANDS
+chmod 755 file.txt             – change permission of file  
+chown user file.txt            – change owner of file  
+chgrp group file.txt           – change group of file  
+
+## RESULT
+Directory, process, pipe and protection related commands were
+successfully used in Linux.
