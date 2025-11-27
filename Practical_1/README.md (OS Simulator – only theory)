@@ -1,0 +1,18 @@
+# Practical 1 – OS Simulator
+
+
+## THEORY (POINTS)
+- An operating system controls process creation, scheduling and memory.
+- A simulator or command-line tools help us visualize how processes
+  change states (new, ready, running, waiting, terminated).
+- Commands like `ps`, `top` and `free` show information about
+  processes and memory.
+
+## IMPORTANT COMMANDS
+ps       – display running processes  
+top      – live view of processes and CPU  
+free -h  – show total, used and free memory
+
+## RESULT
+Thus, various OS functions like process management and memory usage
+were observed using simulator/commands.
