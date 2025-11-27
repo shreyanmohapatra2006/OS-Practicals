@@ -1,0 +1,67 @@
+GENERAL COMMANDS 
+gcc filename.c -o outputname     # compile code
+./outputname                     # run code
+nano filename.c                  # create/edit code
+
+
+//----------------------------------------------
+// PRACTICAL 4 – fork()
+gcc fork_same.c -o fork_same
+./fork_same
+
+gcc fork_diff.c -o fork_diff
+./fork_diff
+
+gcc fork_wait.c -o fork_wait
+./fork_wait
+
+
+//----------------------------------------------
+// PRACTICAL 5 – kernel information (uname)
+gcc kernel_info.c -o kernel
+./kernel
+
+
+//----------------------------------------------
+// PRACTICAL 6 – memory information (sysinfo)
+gcc memory_info.c -o memory
+./memory
+
+
+//----------------------------------------------
+// PRACTICAL 7 – file copy using system calls
+nano source.txt            # create test file
+
+gcc file_copy.c -o copyfile
+./copyfile source.txt dest.txt
+cat dest.txt               # verify output
+
+
+//----------------------------------------------
+// PRACTICAL 8 – FCFS Scheduling
+gcc fcfs.c -o fcfs
+./fcfs
+
+
+//----------------------------------------------
+// PRACTICAL 9 – SJF Scheduling
+gcc sjf.c -o sjf
+./sjf
+
+
+//----------------------------------------------
+// PRACTICAL 10 – Priority Scheduling
+gcc priority.c -o priority
+./priority
+
+
+//----------------------------------------------
+// PRACTICAL 11 – pthread (thread program)
+gcc pthread_sum.c -o pthread -pthread   # -pthread is COMPULSORY
+./pthread
+
+
+//----------------------------------------------
+// PRACTICAL 12 – Memory Allocation (First Fit, Best Fit, Worst Fit)
+gcc allocation.c -o alloc
+./alloc
