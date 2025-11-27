@@ -20,3 +20,9 @@ int main() {
     }
     return 0;
 }
+
+//output
+
+Child running...
+Child finished.
+Parent: child completed, now exiting.
