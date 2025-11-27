@@ -1,0 +1,3 @@
+gcc fork_same.c -o fork_same
+gcc fork_diff.c -o fork_diff
+gcc fork_wait.c -o fork_wait
